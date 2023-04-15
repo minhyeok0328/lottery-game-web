@@ -1,0 +1,48 @@
+{
+  "name": "lottery-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "classnames": "^2.3.2",
+    "jotai": "^2.0.3",
+    "json-server": "^0.17.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/json-server": "^0.14.4",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.11",
+    "postcss": "^8.4.21",
+    "sass": "^1.59.3",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
